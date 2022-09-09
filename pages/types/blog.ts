@@ -1,9 +1,9 @@
 export type Blog = {
     id: string;
-    body: string;
+    content: string;
     title: string;
     tags: Tag[];
-    image: string;
+    eyecatch:eyecatch;
     createdAt: string;
     updatedAt: string;
     publishedAt: string;
@@ -18,3 +18,9 @@ export type Blog = {
     publishedAt: string;
     revisedAt: string;
   };
+
+  export type eyecatch = {
+    url:string;
+    height:number;
+    width:number;
+  } 
