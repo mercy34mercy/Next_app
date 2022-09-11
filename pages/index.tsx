@@ -40,8 +40,8 @@ const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 <a className={styles.link}>{blog.title}</a>
               </Link>
             </div>
-            <div>
-              <img src={blog.eyecatch.url} alt="" style={{ width: blog.eyecatch.width / 3, height: blog.eyecatch.height / 3 }} />
+            <div className={styles.topimg}>
+              <img className={styles.img} src={blog.eyecatch.url} alt="" />
             </div>
           </li>
         ))}

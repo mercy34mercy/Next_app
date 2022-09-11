@@ -3,9 +3,9 @@
     box-shadow: 0 7px 15px 3px rgba(0,0,0,.15);
     margin-top: 2rem;
     padding: 1rem;
-    width: 60%;
+    width: 80%;
+    max-width: 40rem;
     list-style: none;
-    display: flex;  
 }
 
 .box{
@@ -14,5 +14,18 @@
 
 
 .link{
-    font-size:x-large;
+    font-size:large;
+    color: black;
+}
+
+.topimg {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+.img{
+    width: 100%;
 }
