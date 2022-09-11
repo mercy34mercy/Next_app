@@ -1,6 +1,6 @@
 import { GetServerSideProps } from 'next';
 import type { Blog } from '../types/blog';
-import { client } from '../libs/client';
+import client from '../libs/client';
 import '../../styles/[id].module.css'
 
 type Props = {

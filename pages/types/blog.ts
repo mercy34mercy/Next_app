@@ -10,7 +10,7 @@ export type Blog = {
     revisedAt: string;
   };
   
-  export type Tag = {
+export type Tag = {
     id: string;
     tag: string;
     createdAt: string;
@@ -19,8 +19,9 @@ export type Blog = {
     revisedAt: string;
   };
 
-  export type eyecatch = {
+export type eyecatch = {
     url:string;
     height:number;
     width:number;
   } 
+
