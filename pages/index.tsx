@@ -3,8 +3,8 @@
 
 import Link from "next/link";
 import type { InferGetStaticPropsType, NextPage } from "next";
-import client from "./client";
-import type { Blog } from "./blog";    // srcから見た絶対パスで指定
+import client from "../components/client";
+import type { Blog } from "../components/blog";    // srcから見た絶対パスで指定
 import styles from "../styles/title.module.css"
 
 // microCMSへAPIリクエスト
